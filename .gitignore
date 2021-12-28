@@ -1,7 +1,1 @@
-### Format1  ###
-node_modules/
-node/
-
-### Format2  ###
-**/frontend/node_modules/**
-**/frontend/node/**
+node_modules
