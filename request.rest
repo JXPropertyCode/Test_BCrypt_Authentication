@@ -1,0 +1,25 @@
+# gets all the users that exist in our array/db
+GET http://localhost:8000/users
+
+###
+
+
+# create users and store them in array/db
+POST http://localhost:8000/users
+Content-Type: application/json
+
+{
+    "name": "Johnny",
+    "password": "password"
+}
+
+###
+
+# login credentials to verify login
+POST http://localhost:8000/users/login
+Content-Type: application/json
+
+{
+    "name": "Johnny",
+    "password": "password"
+}
